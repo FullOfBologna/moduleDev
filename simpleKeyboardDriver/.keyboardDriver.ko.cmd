@@ -1,0 +1,1 @@
+cmd_/home/qwerty/moduleDev/simpleKeyboardDriver/keyboardDriver.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/qwerty/moduleDev/simpleKeyboardDriver/keyboardDriver.ko /home/qwerty/moduleDev/simpleKeyboardDriver/keyboardDriver.o /home/qwerty/moduleDev/simpleKeyboardDriver/keyboardDriver.mod.o ;  true
